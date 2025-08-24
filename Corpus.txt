@@ -1,166 +1,97 @@
-Ignorer et passer au contenu
-Vous avez dit :
-je me suis construit un modèle de langages de zero, c'est un micro corpus il me génère ceci:  </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>, est ce normal ?
-ChatGPT a dit :
 
-C'est intéressant que tu construises ton propre modèle de langage ! Ce que tu vois — des balises </s> — semble être des marqueurs de fin de séquence. Normalement, dans les modèles de langage, la balise </s> est utilisée pour indiquer la fin d'une séquence de texte. Si tu vois une série de ces balises répétées, cela pourrait indiquer plusieurs choses :
+Sami.is.free
+B  I  B  L  I  O  T  H  E  Q  U  E ~ V  I  R  T  U  E  L  L  E
 
-    Corpus trop petit ou déséquilibré : Si ton micro-corpus est très limité, il est possible que ton modèle n'ait pas suffisamment d'exemples variés pour apprendre des structures de phrases normales. Il pourrait juste générer des fins de séquences en boucle.
+Louis Aragon
+Qu'est-ce que l'art, Jean-Luc Godard?
 
-    Problème d'entrainement : Si le modèle n'est pas bien entraîné ou si le processus d'optimisation ne converge pas correctement, il pourrait générer ces symboles de fin de séquence en excès.
+     
+    Qu'est-ce que l'art ? Je suis aux prises de cette interrogation depuis que j'ai vu le Pierrot le fou de Jean-Luc Godard, où le Sphinx Belmondo pose à un producer américain la question : Qu'est-ce que le cinéma. Il y a une chose dont je suis sûr, aussi, puis-je commencer tout ceci devant moi qui m'effraye par une assertion, au moins, comme un pilotis solide au milieu des marais : c'est que l'art d'aujourd'hui c'est Jean-Luc Godard. C'est peut-être pourquoi ses films, et particulièrement ce film, soulèvent l'injure et le mépris, et l'on se permet avec eux ce qu'on oserait jamais dire d'une production commerciale courante, on se permet avec leur auteur les mots qui dépassent la critique, on s'en prend à l'homme.
+     
 
-    Manque de diversité dans le corpus : Si ton corpus contient principalement des phrases très courtes ou des séquences qui finissent rapidement, le modèle pourrait s'appuyer excessivement sur la balise de fin de séquence.
+    L'Américain, dans Pierrot, dit du cinéma ce qu'il pourrait dire de la guerre du Vietnam, ou plus généralement de la guerre. Et cela sonne drôlement dans le contexte - l'extraordinaire moment du film où Belmondo et Anna Karina, pour faire leur matérielle, jouent devant une couple d'Américains et leurs matelots, quelque part sur la Côte, une pièce improvisée où lui est le neveu de l'oncle Sam et elle la nièce de l'oncle Ho... But it's damn good, damn good ! jubile le matelot à barbe rousse... parce que c'est un film en couleur, imaginez-vous. Je ne vais pas vous le raconter, comme tout le monde, ceci n'est pas un compte rendu. D'ailleurs ce film défie le compte rendu. Allez compter les petits sous d'un milliard !
+     
 
-Que faire pour résoudre ça ?
+    Qu'est-ce que j'aurais dit, moi, si Belmondo ou Godard, m'avait demandé : Qu'est-ce que le cinéma ? J'aurais pris autrement la chose, par les personnes. Le cinéma, pour moi, cela a été d'abord Charlot, puis Renoir, Bunuel, et c'est aujourd'hui Godard. Voilà, c'est simple. On me dira que j'oublie Eisenstein et Antonioni. Vous vous trompez : je ne les oublie pas. Ni quelques autres. Mais ma question n'est pas du cinéma : elle est de l'art. Alors il faudrait répondre de même, d'un autre art, un art avec un autre, un long passé, pour le résumer à ce qu'il est devenu pour nous : je veux dire dans les temps modernes, un art moderne, la peinture par exemple. Pour le résumer par les personnes.
+     
 
-    Augmenter la taille du corpus : Si possible, essaie d'ajouter plus de données ou de diversifier le texte. Plus de variabilité peut aider le modèle à apprendre des patterns de phrase plus complexes.
+    La peinture au sens moderne, commence avec Géricault, Delacroix, Courbet, Manet. Puis son nom est multitude. A cause de ceux-là, à partir d'eux, contre eux, au- delà d'eux. Une floraison comme on n'en avait pas vue depuis l'Italie de la Renaissance. Pour se résumer entièrement dans un homme nommé Picasso. Ce qui, pour l'instant, me travaille, c'est ce temps des pionniers, par quoi on peut encore comparer le jeune cinéma à la peinture. Le jeu de dire qui est Renoir, qui est Bunuel, ne m'amuse pas. Mais Godard c'est Delacroix.
+     
 
-    Vérifier les hyperparamètres : Parfois, des réglages comme le taux d'apprentissage ou la régularisation peuvent affecter la sortie du modèle. Si les réglages sont trop agressifs, cela pourrait amener le modèle à générer des sorties incohérentes.
+    D'abord par comment on l'accueille. A Venise, paraît-il. Je n'ai pas été à Venise, je ne fais pas partie des jurys qui distribuent les palmes et les oscars. J'ai vu, je me suis trouvé voir Pierrot le fou, c'est tout. Je ne parlerai pas des critiques. Qu'ils se déshonorent tout seuls ! Je ne vais pas les contredire. Il y en a pourtant qui ont été pris par la grandeur : Yvonne Baby, Chazal, Chapier, Cournot... Tout de même, je ne peux pas laisser passer comme ça l'extraordinaire article de Michel Cournot : non pas tant pour ce qu'il dit, un peu trop uniquement halluciné des reflets de la vie personnelle dans le film parce qu'il est comme tous, intoxiqué du cinéma vérité, et que moi je tiens pour le cinéma-mensonge. Mais, du moins, à la bonne heure ! voilà un homme qui perd pied quand il aime quelque chose. Et puis il sait écrire, excusez-moi, mais s'il n'en reste qu'un, à moi, ça m'importe. J'aime le langage, le merveilleux langage, le délire du langage : rien n'est plus rare que le langage de la passion, dans ce monde où nous vivons avec la peur d'être pris sans verd, qui remonte, faut croire, à la sortie de l'Eden, quand Adam et Eve s'aperçoivent nus avant l'invention de la feuille de vigne.
+     
 
-    Vérifier la génération : Assure-toi que lors de la génération, il y a des mécanismes en place pour arrêter la génération une fois que le modèle a produit une séquence cohérente, et pas simplement des balises de fin.
+    Qu'est-ce que je raconte ? Ah ! oui j'aime le langage et c'est pour ça que j'aime Godard qui est tout langage.
+     
 
-Tu as utilisé un type particulier de modèle pour ce micro-corpus ?
-Vous avez dit :
-justement le corpus est un ensemble de texte sauvegardé au hasard sur wikipédia, il pèse 220 Ko
-ChatGPT a dit :
+    Non, ce n'est pas ça que je disais : je disais qu'on l'accueille comme Delacroix. Au salon de 1827, ce qui vaut bien Venise, Eugène, il avait accroché La mort de Sardanapale, qu'il appelait son Massacre n° 2 car c'était un peintre de massacres, et non un peintre de batailles, lui aussi. Il avait eu, dit-il, de nombreuses tribulations avec MM les très durs membres du jury. Quand il la voit au mur (ma croûte est placée le mieux du monde), à côté des tableaux des autres, cela lui fait, dit-il, l'effet d'une première représentation où tout le monde sifflerait. Cela avant que ça ait commencé. Un mois plus tard, il écrit à son ami Soulier :
+     
 
-Ah, ça explique probablement une partie du problème. 220 Ko, c’est effectivement assez petit pour entraîner un modèle de langage. Le fait que tu utilises des textes récupérés au hasard sur Wikipédia peut également avoir un impact, surtout si ces textes sont très fragmentés ou contiennent beaucoup de balises de fin de paragraphe, de sections, ou des éléments non pertinents pour l'entraînement d'un modèle de langage.
-Quelques pistes pour améliorer le modèle :
+    Je suis ennuyé de tout ce Salon. Ils finiront par me persuader que j'ai fait un véritable fiasco ! Cependant, je n'en suis pas encore convaincu. Les uns disent que c'est une chute complète que La mort de Sardanapale est celle des romantiques, puisque romantiques il y a ; les autres comme ça, que je suis inganno, mais qu'ils aimeraient mieux se tromper ainsi, que d'avoir raison comme mille autres qui ont raison si on veut et qui sont damnables au nom de l'âme et de l'imagination. Donc je dis que ce sont tous des imbéciles, que ce tableau a des qualités et des défauts, et que s'il y a des choses que je désirerais mieux, il y en a pas mal d'autres que je m'estime heureux d'avoir faites et que je leur souhaite. Le Globe, c'est-à-dire M. Vitet, dit que quand un soldat imprudent tire sur ses amis comme sur ses ennemis, il faut le mettre hors les rangs. Il engage ce qu'il appelle la jeune Ecole à renoncer à toute alliance avec une perfide dépendance. Tant il y a que ceux qui me volent et vivent de ma substance crieraient haro plus fort que les autres. Tout cela fait pitié et ne mérite pas qu'on s'y arrête un moment qu'en ce que cela va droit à compromettre les intérêts tout matériels, c'est-à-dire the cash (l'argent)...
+     
 
-    Filtrer et nettoyer le corpus :
+    Rien ni le franglais n'a beaucoup changé depuis cent trente-huit ans. Il se trouve que j'avais été revoir La mort de Sardanapale il y a peu de temps. Quel tableau que ce "massacre" ! Personnellement, je le préfère de beaucoup à La liberté sur les barricades dont on me casse les pieds. Mais ce n'est pas de cela qu'il s'agit. Il s'agit de ce que l'art de Delacroix ici ressemble à l'art de Godard dans Pierrot le fou. Ca ne vous saute pas aux yeux ? Je parle pour ceux qui ont vu le film. Cela ne leur saute pas aux yeux.
+     
 
-        Éliminer les balises HTML ou les caractères spéciaux : Wikipédia peut contenir beaucoup de balises comme <ref>, <table>, <ul>, etc. Si ces éléments ne sont pas supprimés, ils peuvent perturber l’apprentissage du modèle.
+    Pendant que j'assistais à la projection de Pierrot, j'avais oublié ce qu'il faut, paraît-il dire et penser de Godard. Qu'il a des tics, qu'il cite celui-ci et celui-ci là, qu'il nous fait la leçon, qu'il se croit ceci ou cela... enfin qu'il est insupportable, bavard, moralisateur (ou immoralisateur) : je ne voyais qu'une chose, une seule, et c'est que c'était beau. D'une beauté surhumaine. Physique jusque dans l'âme et l'imagination. Ce qu'on voit pendant deux heures est de cette beauté qui se suffit mal du mot beauté pour se définir : il faudrait dire de ce défilé d'images qu'il est, qu'elles sont simplement sublimes. Mais le lecteur d'aujourd'hui supporte mal le superlatif. Tant pis. je pense de ce film qu'il est d'une beauté sublime. C'est un mot qu'on emploie plus que pour les actrices et encore dans le langage des coulisses. Tant pis. Constamment d'une beauté sublime. Remarquez que je déteste les adjectifs.
+     
 
-        Textes plus longs et cohérents : Si tu utilises des extraits très courts ou fragmentés, cela peut empêcher le modèle d'apprendre une structure plus fluide. Essaie de rassembler les extraits en sections plus longues, en ne conservant que les parties textuelles pertinentes.
+    C'est donc comme Sardanapale, un film en couleur. Au grand écran. Qui se distingue de tous les films en couleur par ce fait que l'emploi d'un moyen chez Godard a toujours un but, et comporte presque constamment sa critique. Il ne s'agit pas seulement du fait que c'est bien photographié, que les couleurs sont belles... C'est très bien photographié, les couleurs sont très belles. Il s'agit d'autre chose. Les couleurs sont celles du monde tel qu'il est, comment est-ce dit ? Il faudrait avoir bien retenu : Comme la vie est affreuse ! mais elle est toujours belle. Si c'est avec d'autres mots, cela revient au même. Mais Godard ne se suffit pas du monde tel qu'il est : par exemple, soudain, la vue est monochrome, toute rouge ou toute bleue comme pendant cette soirée mondaine, au début, qui est probablement le point de départ de l'irritation pour une certaine critique (ça me rappelle cette soirée aux Champs Elysées, à la première d'un ballet d'Elsa, musique de Jean Rivier, chorégraphie de Boris Kochno, décors de Brassaï, le réparateur de radios, avec le déchaînement de la salle, les sifflets à roulettes parce que l'on voyait danser les gens du monde dans une boîte de nuit, et qu'est-ce que vous voulez tout de suite, Tout Paris se sentait visé ! Pendant cette soirée-ci, le renoncement au polychromisme sans retour au blanc et noir signifie la réflexion de J.L. Godard en même temps sur le monde où il introduit Belmondo et sa réflexion technique sur ses moyens d'expression. D'autant que cela est presque immédiatement suivi d'un effet de couleur qui s'enchaîne sur une sorte de feu d'artifice, des éclatements de lumière qui vont se poursuivre sans justification possible dans le Paris nocturne où s'enflamme la passion du héros pour Anna Karina, sous la forme arbitraire de pastilles, de lunes colorées qui traversent en pluie le pare-brise de leur voiture, qui grêlent leur visage et leur vie d'un arbitraire comme un démenti au monde, comme l'entrée de l'arbitraire délibéré dans leur vie. La couleur, pour J. L. G, ça ne peut pas n'être que la possibilité de nous faire savoir si une fille a les yeux bleus ou de situer un monsieur par sa Légion d'honneur. Forcément, un film de lui qui a les possibilités de la couleur va nous montrer quelque chose qu'il était impossible de faire voir avec le noir et blanc, une sorte de voix qui ne peut retentir dans le muet de couleurs.
+     
 
-    Augmenter la taille du corpus : Si possible, essaie de récupérer plus de données, ou même d’enrichir ton corpus avec des textes provenant de différentes sources (par exemple, des livres, des articles de blog, des forums, etc.). Plus de données permettront au modèle d’apprendre une plus grande diversité de langages et de structures.
+    Dans la palette de Delacroix, les rouges, vermillon, rouge de Venise et laque rouge de Rome ou garance, jouant avec le blanc, le cobalt et le cadmium, est-ce de ma part une sorte particulière de daltonisme ? éclipsent pour moi les autres teintes, comme si celles-ci n'étaient mises là qu'afin d'être le fond de ceux- là. Ou faut-il rappeler le mot du peintre à Philarète Chasles, touchant Musset : C'est un poète qui n'a pas de couleur...etc. Moi, j'aime mieux les plaies béantes et la couleur vive du sang... Cette phrase qui m'est toujours restée me revenait naturellement à voir Pierrot le fou. Pas seulement pour le sang. Le rouge y chante comme une obsession. Comme chez Renoir, dont une maison provençale avec ses terrasses rappelle ici les Terrasses à Cagnes. Comme une dominante du monde moderne. A tel point qu'à la sortie je ne voyais rien d'autre de Paris que les rouges : disques de sens unique, Yeux multiples de l'on ne passe pas, filles en pantalons de cochenille, boutiques garance, autos écarlates, minium multiplié aux balcons des ravalements, carthame tendre des lèvres et des paroles du film, il ne me restait dans la mémoire que cette phrase que Godard a mise dans la bouche de Pierrot : Je ne peux pas voir le sang, mais qui, selon Godard, est de Federico Garcia Lorca, où ? qu'importe, par exemple dans La plainte pour la mort d'Ignacio Sanchez Mejias, je ne peux pas voir le sang, je ne peux pas voir, je ne peux, je ne. Tout le film n'est que cet immense sanglot, de ne pouvoir, de ne pas supporter voir, et de répandre, de devoir répandre le sang. Un sang garance, écarlate, vermillon, carmin, que sais-je ? Le sang des Massacres de Scio, le sang de La mort de Sardanapale, le sang de Juillet 1830, le sang de leurs enfants que vont répandre les trois Médée furieuse, celle de 1838 et celles de 1859 et 1862, tout le sang dont se barbouillent les lions et les tigres dans leurs combats avec les chevaux... Jamais il n'a tant coulé de sang à l'écran, de sang rouge, depuis le premier mort dans la chambre d'Anna-Marianne jusqu'au sien, jamais il n'y a eu à l'écran de sang aussi voyant que celui de l'accident d'auto, du nain tué avec des ciseaux et je ne sais plus, je ne peux pas voir le sang, Que ne quiero verla ! Et ce n'est pas Lorca mais la radio qui annonce froidement cent quinze maquisards tués au Vietnam... Là, c'est Marianne qui élève la voix : C'est pénible, hein, ce que c'est anonyme... On dit cent quinze maquisards, et ça n'évoque rien, alors que pourtant, chacun, c'étaient des hommes, et on ne sait pas qui c'est : s'ils aiment une femme, s'ils ont des enfants, s'ils aiment mieux aller au cinéma ou au théâtre. On ne sait rien. On dit juste cent quinze tués. C'est comme la photographie, ça m'a toujours fasciné... Ce sang qu'on ne voit pas, la couleur. On dirait que tout s'ordonne autour de cette couleur, merveilleusement.
+     
 
-    Entraîner un modèle plus simple :
+    Car personne ne sait mieux que Godard peindre l'ordre du désordre. Toujours. Dans Les carabiniers, Vivre sa vie, Bande à part, ici. Le désordre de notre monde est sa matière, à l'issue des villes modernes, luisantes de néon et de formica, dans les quartiers suburbains ou les arrière-cours, ce que personne ne voit jamais avec les yeux de l'art, les poutrelles tordues, les machines rouillées, les déchets, les boîtes de conserves, des filins d'acier, tout ce bidonville de notre vie sans quoi nous ne pourrions vivre, mais que nous nous arrangeons pour ne pas voir. Et de cela comme de l'accident et du meurtre il fait la beauté. L'ordre de ce qui ne peut en avoir, par définition. Et quand les amants jetés dans une confuse et tragique aventure ont fait disparaître leurs traces, avec leur auto explosée aux côtés d'une voiture accidentée, ils traversent la France du nord au sud, et il semble que pour effacer leurs pas, il leur faille encore, toujours, marcher dans l'eau, pour traverser ce fleuve qui pourrait être la Loire... plus tard dans ce lieu perdu de la Méditerranée où, tandis que Belmondo se met à écrire, Anna Karina se promène avec une rage désespérée d'un bout à l'autre de l'écran en répétant cette phrase comme un chant funèbre : Qu'est-ce que je peux faire ? Je ne peux rien faire... Qu'est-ce que je peux faire ? Je ne peux rien faire... A propos de la Loire...
+     
 
-        Si tu utilises un modèle assez complexe (par exemple, un modèle transformer comme GPT ou BERT), il peut être difficile pour lui d'apprendre avec un corpus aussi petit. Tu pourrais peut-être commencer avec un modèle plus simple (comme un modèle de type n-grammes ou un LSTM), qui peut mieux gérer des ensembles de données plus petits.
+    Ce fleuve au moins, avec ses îlots et ses sables, j'ai pensé en le regardant que c'est celui qui passe dans le paysage à l'arrière de la Nature morte aux homards qui est au Louvre, que Delacroix a peinte, dit-on, à Beffes, dans le Cher près de la Charité-sur-Loire. Cet étrange arrangement (ou désordre) d'un lièvre, d'un faisan avec deux homards cuits vermillon sur le filet d'un carnier de chasse et un fusil devant le vaste paysage avec le fleuve et ses îles, on peut m'expliquer qu'il l'a fait pour un général habitant le Berry, il n'en demeure pas moins un singulier carnage, ce Massacre n° 2 bis, qui est à peu près contemporain de La mort de Sardanapale, et paraîtra aux côtés de ce tableau au Salon de 1827. C'était l'essai d'une technique nouvelle où la couleur est mélangée avec du vernis au copal. Toute la nature de Pierrot le fou est ainsi vernie avec je ne sais quel copal de 1965, qui fait que c'est comme pour la première fois que nous la voyons. Le certain est qu'il n'y a de précédent à La Nature morte aux homards, à cette rencontre d'un parapluie et d'une machine à coudre sur la table de dissection du paysage, comme il n'y a d'autre précédent que Lautréamont à Godard. Et je ne sais plus ce qui est le désordre, ce qui est l'ordre. Peut être que la folie de Pierrot, c'est qu'il est là à mettre dans le désordre de notre temps l'ordre stupéfiant de la passion. Peut-être. L'ordre désespéré de la passion (le désespoir, il est dans Pierrot dès le départ, le désespoir de ce mariage qu'il a fait, et la passion, le lyrisme, c'est la seule chance encore d'y échapper).
+     
 
-    Utilisation d'un modèle préexistant :
+    L'année où Eugène Delacroix brusquement, part pour le Maroc traversant la France par la neige et une gelée de chien... une bourrasque de vent et de pluie, 1832, il n'y avait pu avoir de Salon au Louvre à cause du choléra à Paris. Mais en mai, une exposition de bienfaisance remplace le Salon, où cinq toiles de petit format prêtées par un ami représentent l'absent. Trois d'entre elles semblent avoir été faites coup sur coup, et probablement en 1826 - 1827 : l'Etude de femme couchée (ou Femme aux bas blancs) qui est au Louvre, la Jeune femme caressant un perroquet qui est au Musée de Lyon et Le Duc de Bourgogne montrant le corps de sa maîtresse au Duc d'Orléans, qui est je ne sais où.
+     
 
-        Si tu n'as pas encore utilisé un modèle préexistant comme GPT-2 ou GPT-3, il serait utile d'envisager cette option. Ces modèles sont souvent préentraînés sur d'énormes corpus de texte et peuvent ensuite être affinés (fine-tuned) sur ton propre corpus de données spécifiques, ce qui peut offrir des résultats bien plus intéressants même avec un corpus relativement petit.
+    C'est dans le plein temps de sa liaison avec Mme Dalton, mais il est impossible de savoir qui sont au vrai les femmes nues de ces trois tableaux, si c'est la même. Sans doute, la Jeune femme au perroquet a-t-elle les paupières lourdes qu'on voit à la Dormeuse qui est, paraît-il, Mme Dalton. Mais ni l'une ni l'autre ne ressemblent au portrait de cette dame par Bonington. Dans le Journal d'Eugène, il passe beaucoup de jeunes femmes qui viennent poser, et à propos desquelles il inscrit dans son carnet une très particulière arithmétique. Quoi qu'il en soit, on tient Le Duc de B, etc.., pour la suite de ces deux études, et personne ne doute qu'il y ait coïncidence de strip-tease entre le tableau et la vie, Eugène pouvant bien être le Duc de Bourgogne et son ami Robert Soulier, le Duc d'Orleans. On sait comment Mme DALTON passa de l'un à l'autre. Mais la perversité du peintre n'est pas ici en question : dans Pierrot le fou c'est Belmondo qui joue avec un perroquet. Je ne dis tout ceci que pour montrer comment si je le voulais, moi aussi, je pourrais m'adonner au délire d'interprétation. Et d'ailleurs, n'est-ce pas là réponse à la question d'où j'étais parti ? L'art, c'est le délire d'interprétation de la vie.
+     
 
-    Éviter la génération prématurée des balises </s> :
+    Si je voulais aussi, j'aborderais J. L. G. par le rivage des peintres pour chercher origine à l'une des caractéristiques de son art dont on lui fait le plus reproche. La citation, comme disent les critiques, les collages comme j'ai proposé que cela s'appelle, et il m'a semblé voir, dans des interviews, que Godard avait repris ce terme. Les peintres ont les premiers usés du collage au sens où nous l'entendons, lui et moi, dès avant 1910 et leur emploi systématique par Braque et Picasso : il y a, par exemple, Watteau dont L'enseigne de Gersaint est un immense collage, où tous les tableaux au mur de la boutique et le portrait de Louis XIV par Hyacinthe Rigaut qu'on met en caisse sont cités comme on se plaît à dire. Chez Delacroix, il suffit d'un tableau de 1824, Milton et ses filles, pour trouver "la citation" en tant que procédé d'expression. Il y avait quelque provocation à prendre pour sujet de peinture un homme qui ne voit point afin de nous montrer sa pensée : l'aveugle pâle est assis dans un fauteuil appuyant sa main sur un tapis de table brodé, dont ses doigts palpent les couleurs devant un pot de fleurs qui lui échappe.
+     
 
-        Si ton modèle génère uniquement des balises de fin de séquence, tu pourrais essayer d'ajuster le critère d'arrêt ou l’algorithme de génération pour ne pas trop dépendre de la fin de la séquence. Par exemple, tu pourrais envisager de générer plus de mots avant de conclure une séquence.
+    Mais au-dessous de ses deux filles assises sur des sièges bas, l'une prenant la dictée du Paradise lost, la seconde tenant un instrument de musique qui s'est tu, il y a une toile non encadrée au mur où l'on voit Adam et Eve fuyant le paradis perdu devant le geste de l'Ange qui les chasse sans verd, nus et honteux. C'est un collage destiné à nous apprendre l'invisible, la pensée de l'homme aux yeux vides. Le procédé ne s'est pas perdu depuis. Vous connaissez ce tableau de Seurat, Les Poseuses, où dans l'atelier du peintre trois femmes déshabillées, l'une à droite en train d'enlever des bas noirs, se trouvent à côté du grand tableau de La Grande Jatte, "cité" fort à propos pour que ceci soit autre chose que ce que nous appelons un strip-tease. Et Courbet, quand il fait collage de Baudelaire dans un coin de son Atelier, hein ? De même, dans Pierrot, Godard avant d'envoyer la lettre l'affranchit d'un Raymond Devos : comme il avait fait du philosophe dans Vivre sa vie, Brice Parain. Ce ne sont pas là des personnages de roman, ce sont des pancartes, pour apprendre comment Adam et Eve furent chassés du paradis terrestre.
+     
 
-Cela dit, le modèle que tu as peut aussi être dans une phase d’apprentissage où il surapprend à reconnaître les "patterns" de fin de séquence, donc il pourrait se stabiliser au fil du temps. Tu as testé une certaine architecture ou tu utilises une approche basique ?
-Vous avez dit :
-mon pc n'a pas assez de ram et de vram pour un plus grand corpus, j'ai 8 Go de ram et 512 de vram, un corpus de 120 Mo prendrait 3 jours pour l'entrainer (j'ai des hyper paramètres minimal)
-ChatGPT a dit :
+    Au reste, s'il y a dans ce domaine une différence entre Pierrot et les autres films de Godard, c'est dans ce qu'on ne manquera pas de considérer ici comme une surenchère. Voilà plusieurs années que ce procédé est reproché à l'auteur du Mépris et du Petit soldat comme une manie dont on attend qu'il se débarrasse. Les critiques espèrent l'en décourager et sont tout près d'applaudir un Godard qui simplement cesserait d'être Godard, et ferait des films comme tout le monde. Ils n'y réussissent pas très bien à en juger par ce film-ci. Si quelqu'un devait se décourager, c'est eux. L'accroissement du système des collages dans Pierrot le fou est tel qu'il y a des parties entières (des chapitres, comme dit Godard), qui ne sont que collages. Ainsi toute la réception mondaine du début. Eh bien, non. Ils continuent, ils ont reconnu (parce que Belmondo tient l'Elie Faure de poche en main) que le texte par quoi commence toute l'histoire, sur Velasquez, est d'Elie Faure. Ils n'ont pas très bien compris pourquoi, plus tard, Pierrot lit la récente réimpression des Pieds Nickelés. Dans une histoire où Belmondo brandit un livre de la Série Noire pour dire voilà ce que c'est qu'un roman ! Moi, je me rigole, messieurs : quand j'étais enfant on ne me disait rien si on me trouvait à lire Pierre Louys ou Charles-Henry Hirsch, mais ma mère m'interdisait les Pieds Nickelés. Qu'est-ce qu'elle m'aurait passé, si elle m'avait pincé avec l'Epatant, où ça paraissait ! Je ne sais pas de quoi ça a l'air pour les jeunes blousons noirs, nos cadets, mais, pour les gens de ma génération qui n'ont pas encore la mémoire tout à fait cartilagineuse la ressemblance entre les Pieds Nickelés et les types de "l'organisation" dans le jeu compliqué de laquelle est tombé Pierrot saute aux yeux : si bien que toute cette affaire, quand Belmondo lit les Pieds Nickelés, prend un sens légèrement plus complexe qu'il ne semble à première vue.
+     
 
-Ah, je comprends mieux. Avec 8 Go de RAM et 512 Mo de VRAM, ton ordinateur a des ressources limitées pour l'entraînement de modèles de langage plus complexes. C'est un vrai défi, mais il y a des stratégies que tu peux adopter pour faire tourner ton modèle plus efficacement sans avoir besoin d'une machine plus puissante.
-Quelques suggestions pour optimiser l'entraînement :
-1. Utiliser des modèles plus légers
+    L'essentiel n'est pas là : mais qu'il faut bien au bout du compte se faire à l'idée que les collages ne sont pas des illustrations du film, qu'ils sont le film même. Qu'ils sont la matière même de la peinture, qu'elle n'existerait pas en dehors d'eux. Aussi tous ceux qui persistent à prendre la chose pour un truc feront-ils mieux à l'avenir de changer de disque. Vous pouvez détester Godard, mais vous ne pouvez pas lui demander de pratiquer un autre art que le sien, la flûte ou l'aquarelle. Il faut bien voir que Pierrot qui ne s'appelle pas Pierrot, et qui hurle à Marianne : Je m'appelle Ferdinand ! se trouve juste à côté d'un Picasso qui montre le fils de l'artiste (Paulo enfant) habillé en pierrot. Et en général, la multiplication des Picasso aux murs ne tient pas à l'envie que J.L.G. pourrait avoir de se faire prendre pour un connaisseur, quand on vend des Picasso aux Galeries Lafayette. L'un des premiers portraits de Jacqueline, de profil, est là pour, un peu plus tard, être montré la tête en bas parce que dans le monde et la cervelle de Pierrot tout est upside down. Sans parler de la ressemblance des cheveux peints, et des longues douces mèches d'Anna Karina. Et la hantise de Renoir (Marianne s'appelle Marianne Renoir). Et les collages de publicité (il y a eu la civilisation grecque, la civilisation romaine, maintenant nous avons la civilisation du cul...), produits de beauté, sous-vêtements.
+     
 
-    Si ton modèle est trop lourd pour ton matériel, tu pourrais essayer des architectures plus légères. Par exemple, un LSTM ou GRU pourrait être beaucoup plus léger en termes de ressources que des architectures comme les transformers (GPT, BERT). Ces modèles peuvent tout de même donner de bons résultats pour des tâches de langage.
+    Ce qu'on lui reproche surtout, à Godard, ce sont les collages parlés : tant pis pour qui n'a pas senti dans Alphaville (qui n'est pas le film que je préfère de cet auteur) l'humour de Pascal cité de la bouche d'Eddie Constantine devant le robot en train de l'interroger. On lui reproche, au passage, de citer Céline. Ici Guignol's band : s'il me fallait parler de Céline on n'en finirait plus. Je préfère Pascal, sans doute, et je ne peux pas oublier ce qu'est devenu l'auteur du Voyage au bout de la nuit, certes. N'empêche que Le voyage, quand il a paru, c'était un fichument beau livre et que les générations ultérieures s'y perdent, nous considèrent comme injustes, stupides, partisans. Et nous sommes tout çà. Ce sont les malentendus des pères et des fils. Vous ne les dénouerez pas par des commandements : " Mon jeune Godard, il vous est interdit de citer Céline !". Alors, il le cite, cette idée.
+     
 
-    Tu peux aussi essayer un modèle basé sur des n-grammes ou une approche probabiliste de type Markov chain, qui est encore plus léger et beaucoup moins exigeant en mémoire.
+    Pour ma part, je suis très fier d'être cité (collé) par l'auteur de Pierrot avec une constance qui n'est pas moins remarquable que celle qu'il apporte à vous flanquer Céline au nez. Pas moins remarquable, mais beaucoup moins remarquée par MM les critiques, ou parce qu'ils ne m'ont pas lu, ou parce que ça les agace autant qu'avec Céline, mais n'ont pas avec moi les arguments que Céline leur donne, alors il ne reste que l'irritation, et le passé sous silence, l'irritation pire d'être muette. Dans Pierrot le fou un grand bout de La Mise à mort..., bien deux paragraphes, je ne connais pas mes textes par coeur, mais je les reconnais, moi, au passage... dans la bouche de Belmondo m'apprend une fois de plus cet espèce d'accord secret qu'il y a entre ce jeune homme et moi sur les choses essentielles : l'expression toute faite qu'il la trouve chez moi, ou ailleurs, là où j'ai mes rêves (la couverture de l'Ame au début de La femme mariée, Admirables fables de Maïakovski, traduit par Elsa, dans Les carabiniers, sur la lèvre de la partisane qu'on va fusiller). Quand Baudelaire eut dans Les phares collé un Delacroix, Lac de sang hanté des mauvais anges..., le vieux Delacroix lui écrivit : Mille remerciements de votre bonne opinion : je vous en dois beaucoup pour les Fleurs du Mal : je vous en ai déjà parlé en l'air, mais cela mérite toute autre chose... Quand, au Salon de 1859, la critique exécute Delacroix c'est Baudelaire qui répond pour lui, et le peintre écrit au poète : Ayant eu le bonheur de vous plaire, je me console de leurs réprimandes. Vous me traitez comme on ne traite que les grands morts. Vous me faîtes rougir tout en me plaisant beaucoup : nous sommes faits comme cela...
+     
 
-2. Entraîner par lots (mini-batchs)
+    Je ne sais pas trop pourquoi je cite, je colle cela dans cet article : tout est à la renverse, sauf que oui, dans cette petite salle confidentielle, noire, où il n'y avait qu'Elsa, quand j'ai entendu ces mots connus, pas dès le premier reconnus, j'ai rougi dans l'ombre. Mais ce n'est pas moi qui ressemble à Delacroix. C'est l'autre. Cet enfant de génie.
+     
 
-    Au lieu de charger tout le corpus dans la mémoire, tu peux diviser les données en mini-batchs et entraîner ton modèle par petits morceaux. Cela permet de réduire la consommation de mémoire.
+    Voyez-vous, tout recommence. Ce qui est nouveau, ce qui est grand, ce qui est sublime attire toujours l'insulte, le mépris, l'outrage. Cela est plus intolérable pour le vieillard. A soixante et un ans, Delacroix a connu l'affront, le pire de ceux qui distribuent la gloire. Quel âge a-t-il, Godard ? Et même si la partie était perdue, la partie est gagnée, il peut m'en croire.
+     
 
-    Pour un corpus de 120 Mo, tu pourrais expérimenter avec des mini-batchs de taille plus petite pour mieux gérer la mémoire.
+    Comme j'écrivais cet article, il m'est arrivé un livre d'un inconnu. Il s'appelle Georges Fouchard, et son roman, De seigle et d'étoiles ce qui est un titre singulier. Je l'ai lu d'une lampée. Je ne sais pas s'il est objectivement un beau livre. Il m'a touché, d'une façon bizarre qui avait trait à Delacroix. On sait de celui-ci, que tous les ans, avec deux amis (J.B. Pierret et Felix Guillemardet), depuis 1818, il fêtait, à tour de rôle chez l'un chez l'autre, la Saint-Sylvestre. On imagine ce que ces réunions périodiques, dont il nous est resté des dessins de Delacroix, supposaient d'espoirs, de projets, de confidences, de discussions... Guillemardet meurt en 1840, Pierret en 1854. Ni l'un ni l'autre ne sont devenus grand'chose. Delacroix finira seul cette vie, sans ses amis de jeunesse.
+     
 
-3. Réduire la taille du modèle
+    Or, dans De seigle et d'étoiles, le roman tourne autour de trois amis, Bouju, Gerlier et Frédéric, qui ont formé une sorte de groupe à trois, Mach 3, qu'ils l'appellent. Le roman, c'est ce que cela devient et ce que cela ne devient pas. Tout recommence, je vous dis. L'anecdote varie, et c'est tout. Votre jeunesse, jeunes gens, c'est toujours la mienne. Et Bouju écrira, presque pour finir, cette lettre, ce désespoir de lettre, parce qu'après tout Mach 3 c'est simplement trois pauvres types inadaptés. Drôle ce chiffre trois, pour Delacroix, pour moi. Et Bouju écrit tout de même, sans doute pour optimiser, comme il dit... quel âge a-t-il, Bouju, à cette minute là ? Et Fouchard lui, il a trente-cinq ans quand paraît son premier roman, comme dit le prière d'insérer. J'insère. Mais Bouju qui s'intitule le braillard de l'Anti-Système dit encore : Vingt, vingt-cinq bouquins, nous écrirons si c'est nécessaire pour réveiller ce petit déclic qui marque des soubresauts dans les foules de tous les pays. Si vous ne comprenez pas, allez donc faire de la bicyclette, ça vous fera les mollets...
+     
 
-    Tu pourrais aussi essayer de réduire la taille du modèle en diminuant le nombre de couches et le nombre de neurones par couche. Cela allégera la charge sur la mémoire et accélérera l'entraînement, mais cela peut également réduire la complexité du modèle.
+    Quel rapport, ceci qui vient après une sorte de bilan de la destinée d'un Rimbaud, quel rapport cela a-t-il avec Pierrot le fou, avec Godard ? Combien y- a-t-il déjà de films de Godard ? Nous sommes tous des Pierrot le fou, d'une façon ou de l'autre, des Pierrot qui se sont mis sur la voie ferrée, attendant le train qui va les écraser puis qui sont partis à la dernière seconde, qui ont continué à vivre. Quelles que soient les péripéties de notre existence, que cela se ressemble ou non, Pierrot se fera sauter, lui, mais à la dernière seconde il ne voulait plus. Voyez-vous tout cela que je dis paraît de bric et de broc : et ce roman qui s'amène là-dedans comme une fleur... Si j'en avais le temps, je vous expliquerais. Je n'en ai pas le temps. Ni le goût d'optimiser. Mais pourtant, peut-être, pourrais-je encore vous dire que tant pis pour ce qu'on était et ce qu'on est devenu, seulement le temps passe, un jour on rencontre un Godard, une autre fois un Fouchard. Pour la mauvaise rime. Et voilà que cela se ressemble, que cela se ressemble terriblement, que cela recommence, même pour rien, même pour rien. Rien n'est fini, d'autres vont refaire la même route, le millésime seul change, ce que cela se ressemble...
+     
 
-    Par exemple, si tu utilises un modèle transformer, essaie de réduire le nombre de têtes d'attention ou d'ajuster la taille de l'embedding.
+    Je voulais parler de l'art. Et je ne parle que de la vie.
+     
+     
 
-4. Optimisation de l'entraînement
+    no copyright 2001 sami.is.free.fr - no rights reserved
+    no copyright 2001 textz.com - no rights reserved
 
-    Optimise les hyperparamètres : Parfois, une petite modification dans les hyperparamètres (comme un taux d’apprentissage plus faible) peut accélérer l'entraînement sans sacrifier la qualité du modèle. De plus, le taux de batch peut jouer un grand rôle dans la gestion des ressources.
 
-    Gradient Accumulation : Si tu n'as pas assez de mémoire pour utiliser un grand batch size, tu peux essayer d'utiliser une technique appelée accumulation de gradient. Cela te permet de simuler un batch plus grand sans avoir à le charger entièrement en mémoire, ce qui peut grandement aider avec des ressources limitées.
-
-5. Entraînement sur des séquences plus petites
-
-    Si ton modèle travaille sur de très longues séquences, essaie de réduire la longueur des séquences pendant l'entraînement. Les longues séquences demandent plus de mémoire, donc en coupant les textes en morceaux plus courts, tu réduis la consommation de RAM et de VRAM.
-
-6. Exploiter des ressources externes
-
-    Si tu ne veux pas attendre 3 jours pour entraîner ton modèle, tu peux aussi envisager des alternatives pour utiliser des ressources externes :
-
-        Google Colab ou Kaggle Notebooks : Ces plateformes offrent un accès gratuit à des GPU, ce qui peut grandement accélérer ton processus d'entraînement.
-
-        Services cloud (AWS, GCP, Azure) : Bien que ce soit payant, tu peux louer de la puissance de calcul pour un coût relativement bas si tu n'entraînes pas pendant trop longtemps.
-
-7. Entraîner moins longtemps mais plus souvent
-
-    Si l'entraînement prend trop de temps, tu peux essayer de l'entraîner sur des sessions plus courtes, mais plus souvent. Par exemple, tu peux entraîner le modèle pendant 1 à 2 heures par jour, et après chaque session, sauvegarder le modèle. De cette manière, tu progresses lentement mais régulièrement.
-
-8. Compression et réduction de données
-
-    Si ton corpus est relativement hétérogène et contient beaucoup de données redondantes ou inutiles, tu pourrais essayer de compresser les données ou de réduire leur dimensionnalité avant l’entraînement. Cela peut alléger la charge sur ton système tout en maintenant la qualité du modèle.
-
-Quelques compromis à faire :
-
-Si tu continues avec des ressources limitées, il faudra souvent faire des compromis entre la taille du modèle et la qualité des résultats. Cela pourrait aussi signifier que ton modèle sera moins complexe, mais si tu choisis bien ton approche, tu devrais pouvoir obtenir des résultats intéressants même avec un corpus et des ressources limités.
-
-Est-ce que tu utilises déjà un framework spécifique pour l'entraînement (comme TensorFlow, PyTorch, etc.) ? Parfois, il existe des options spécifiques d'optimisation selon l'outil que tu choisis.
-Vous avez dit :
-si je prend un corpus petit mais beaucoup de phrases sans saut de lignes ?
-ChatGPT a dit :
-
-L'idée de prendre un petit corpus mais avec beaucoup de phrases continues (sans sauts de ligne) peut être une approche intéressante, mais il y a quelques points à considérer pour maximiser l'efficacité de cette stratégie.
-Avantages de cette approche :
-
-    Plus de données pour chaque étape d'entraînement :
-
-        En éliminant les sauts de ligne et en regroupant toutes les phrases dans un texte continu, tu augmentes la quantité de texte que le modèle peut traiter à chaque étape d'entraînement. Cela peut lui permettre d’apprendre plus rapidement des structures de phrases, même avec un corpus limité.
-
-    Moins de fragmentation :
-
-        Si ton corpus est très petit, chaque phrase individuelle pourrait ne pas fournir suffisamment de contexte pour que le modèle puisse apprendre. Un flux continu de texte sans sauts de ligne permet d’obtenir plus de "contexte" par itération, ce qui peut être utile pour l'apprentissage des dépendances entre les mots et les phrases.
-
-    Optimisation des ressources :
-
-        Cela peut réduire le nombre de "séquences de fin" (balises </s>) générées, car le modèle peut générer des phrases plus longues sans être constamment "arrêté" par un saut de ligne ou un indicateur de fin de paragraphe. Cela permet au modèle de produire des sorties plus longues et cohérentes avant de s’arrêter.
-
-Inconvénients possibles :
-
-    Perte de structure sémantique :
-
-        Les sauts de ligne et les paragraphes peuvent être un moyen pour ton modèle de mieux comprendre la structure sémantique du texte. Par exemple, un saut de ligne pourrait marquer la fin d'une idée et le début d'une nouvelle. Sans cette séparation, ton modèle pourrait avoir plus de mal à comprendre les transitions entre les idées.
-
-        Cela peut rendre les sorties plus "molles" ou difficiles à interpréter, car il n’y aurait plus de séparation claire entre les sujets ou les idées.
-
-    Contexte court vs. long terme :
-
-        Si tu donnes beaucoup de texte sans sauts de ligne, le modèle aura plus de texte à traiter, mais si le modèle n'est pas capable de gérer des dépendances à long terme (ce qui est un défi avec des architectures simples), il pourrait ne pas saisir les relations importantes à travers des paragraphes.
-
-    Manque de diversité :
-
-        En gardant un flux de texte continu, tu peux finir par perdre un peu de diversité dans la structure des données. Les modèles comme les transformers peuvent souvent bénéficier de l'alternance entre différentes structures de phrases (par exemple, une phrase simple suivie d'une phrase plus complexe).
-
-Comment optimiser cette approche ?
-
-    Encodage de la structure interne :
-
-        Si tu choisis cette méthode, pense à encoder d’une manière différente les transitions entre les idées, comme en utilisant des marqueurs spéciaux (par exemple, une balise spécifique comme "[PARAGRAPHE]") pour indiquer la fin d’une idée ou d’une section. Cela permet au modèle de maintenir une certaine structure tout en n'ayant pas de sauts de ligne explicites.
-
-    Attention au long terme :
-
-        Assure-toi que ton modèle est capable de prendre en compte des séquences longues, surtout si tu choisis de garder tout le texte sans sauts de ligne. Si tu utilises des LSTM ou GRU, ils peuvent avoir du mal à gérer des dépendances sur des textes longs. Un transformer avec un nombre réduit de têtes d'attention pourrait mieux s’en sortir ici, mais il faut que le modèle soit bien adapté pour gérer un texte continu.
-
-    Fenêtre glissante ou segments :
-
-        Une autre approche serait de découper le texte en segments ou "fenêtres glissantes", mais sans sauts de ligne. Chaque segment contiendrait un certain nombre de mots ou de phrases pour aider à préserver un certain niveau de cohérence. Par exemple, une fenêtre de 1000 mots pourrait servir de texte d’entrée pour chaque passage d'entraînement.
-
-    Entraînement incrémental :
-
-        Tu pourrais entraîner ton modèle de manière incrémentale, où au lieu de l'entraîner d’un seul coup sur tout le corpus, tu charges des morceaux de texte dans la mémoire et l’entraînes sur ceux-ci, tout en ajustant progressivement le modèle.
-
-Conclusion :
-
-L'idée de retirer les sauts de ligne pour faire un texte continu est faisable, et peut en fait rendre l'entraînement plus fluide et rapide avec un corpus petit, mais il est essentiel d’encadrer ce texte de manière à ce que le modèle puisse toujours capter la structure sémantique du langage. L'ajout de marqueurs spéciaux ou de segments pourrait être une bonne solution pour équilibrer les avantages de la continuité du texte et la préservation du sens.
-
-Si tu es prêt à tester cela, ce serait intéressant de voir comment le modèle réagit. Est-ce que tu utilises des outils comme TensorFlow ou PyTorch pour l’entraînement, ou tu travailles directement avec un autre cadre plus léger ?
-
-
-ChatGPT peut commettre des erreurs. Il est recommandé de vérifier les informations importantes. Voir les préférences en matière de cookies.
