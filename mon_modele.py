@@ -24,7 +24,7 @@ device = safe_device()
 
 # === MiniGPT ===
 class MiniGPT(nn.Module):
-    def __init__(self, vocab_size, d_model=128, max_len=50, num_heads=4, ff_dim=256):
+    def __init__(self, vocab_size, d_model=128, max_len=50, num_heads=16, ff_dim=256):
         super().__init__()
         self.token_emb = nn.Embedding(vocab_size, d_model)
         self.positional_enc = self.create_positional_encoding(max_len, d_model)
